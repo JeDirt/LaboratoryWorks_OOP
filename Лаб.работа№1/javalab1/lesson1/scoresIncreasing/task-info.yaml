@@ -1,0 +1,56 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  text: |-
+    public class Task {
+
+        // Дан массив, метод возвращает true если каждый элемент массива равен или больше предыдущему
+        public boolean scoresIncreasing(int[] a) {
+
+            // Напишите тело метода и возвращаемое значение метода
+            return false;
+        }
+
+    }
+  learner_created: false
+- name: test/Tests.java
+  visible: false
+  text: |-
+    import org.junit.Assert;
+    import org.junit.Test;
+
+    import java.util.Arrays;
+
+    public class Tests {
+      @Test
+      public void G_scoresIncreasingTest() {
+
+        Task task = new Task();
+
+        int[] a = new int[]{1, 3, 4};
+        Assert.assertEquals("Метод scoresIncreasing(" + Arrays.toString(a) + ") должен вернуть true", true, task.scoresIncreasing(a));
+
+        a = new int[]{1, 3, 2};
+        Assert.assertEquals("Метод scoresIncreasing(" + Arrays.toString(a) + ") должен вернуть false", false, task.scoresIncreasing(a));
+
+        a = new int[]{1, 1, 4};
+        Assert.assertEquals("Метод scoresIncreasing(" + Arrays.toString(a) + ") должен вернуть true", true, task.scoresIncreasing(a));
+
+        a = new int[]{1, 1, 2, 4, 4, 7};
+        Assert.assertEquals("Метод scoresIncreasing(" + Arrays.toString(a) + ") должен вернуть true", true, task.scoresIncreasing(a));
+
+        a = new int[]{1, 1, 2, 4, 3, 7};
+        Assert.assertEquals("Метод scoresIncreasing(" + Arrays.toString(a) + ") должен вернуть false", false, task.scoresIncreasing(a));
+
+        a = new int[]{-5, 4, 11};
+        Assert.assertEquals("Метод scoresIncreasing(" + Arrays.toString(a) + ") должен вернуть true", true, task.scoresIncreasing(a));
+
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 05 Sep 2021 07:45:05 UTC
+record: -1

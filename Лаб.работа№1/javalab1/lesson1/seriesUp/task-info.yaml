@@ -1,0 +1,65 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  text: |-
+    public class Task {
+
+        // Дано число n >=0. Метод возвращает массив по шаблону
+        // {1, 1,2, 1,2,3,  ...1,2,3..n}
+        // Например
+        // seriesUp(3) → [1, 1, 2, 1, 2, 3]
+        // seriesUp(4) → [1, 1, 2, 1, 2, 3, 1, 2, 3, 4]
+        // seriesUp(2) → [1, 1, 2]
+        //
+        // Длина итогового массива = n*(n+1)/2
+        public int[] seriesUp(int n) {
+
+            // Напишите тело метода и возвращаемое значение метода
+            return null;
+        }
+
+    }
+  learner_created: false
+- name: test/Tests.java
+  visible: false
+  text: |-
+    import org.junit.Assert;
+    import org.junit.Test;
+
+    import java.util.Arrays;
+
+    public class Tests {
+
+      @Test
+      public void E_seriesUpTest() {
+
+        Task task = new Task();
+
+        int[] a = new int[]{};
+        Assert.assertArrayEquals("Метод seriesUp(0) должен вернуть " + Arrays.toString(a), a, task.seriesUp(0));
+
+        a = new int[]{1};
+        Assert.assertArrayEquals("Метод seriesUp(1) должен вернуть " + Arrays.toString(a), a, task.seriesUp(1));
+
+        a = new int[]{1, 1, 2};
+        Assert.assertArrayEquals("Метод seriesUp(2) должен вернуть " + Arrays.toString(a), a, task.seriesUp(2));
+
+        a = new int[]{1, 1, 2, 1, 2, 3};
+        Assert.assertArrayEquals("Метод seriesUp(3) должен вернуть " + Arrays.toString(a), a, task.seriesUp(3));
+
+        a = new int[]{1, 1, 2, 1, 2, 3, 1, 2, 3, 4};
+        Assert.assertArrayEquals("Метод seriesUp(4) должен вернуть " + Arrays.toString(a), a, task.seriesUp(4));
+
+        a = new int[]{1, 1, 2, 1, 2, 3, 1, 2, 3, 4, 1, 2, 3, 4, 5, 1, 2, 3, 4, 5, 6};
+        Assert.assertArrayEquals("Метод seriesUp(6) должен вернуть " + Arrays.toString(a), a, task.seriesUp(6));
+      }
+
+
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 05 Sep 2021 07:46:50 UTC
+record: -1

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/javalab1.iml" filepath="$PROJECT_DIR$/.idea/modules/javalab1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/biggestArray/javalab1.lesson1-biggestArray.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/biggestArray/javalab1.lesson1-biggestArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/biggestArray/javalab1.lesson1-biggestArray.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/biggestArray/javalab1.lesson1-biggestArray.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/biggestArray/javalab1.lesson1-biggestArray.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/biggestArray/javalab1.lesson1-biggestArray.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/canSplit/javalab1.lesson1-canSplit.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/canSplit/javalab1.lesson1-canSplit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/canSplit/javalab1.lesson1-canSplit.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/canSplit/javalab1.lesson1-canSplit.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/canSplit/javalab1.lesson1-canSplit.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/canSplit/javalab1.lesson1-canSplit.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/closeToTen/javalab1.lesson1-closeToTen.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/closeToTen/javalab1.lesson1-closeToTen.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/closeToTen/javalab1.lesson1-closeToTen.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/closeToTen/javalab1.lesson1-closeToTen.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/closeToTen/javalab1.lesson1-closeToTen.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/closeToTen/javalab1.lesson1-closeToTen.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/reverseArray/javalab1.lesson1-reverseArray.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/reverseArray/javalab1.lesson1-reverseArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/reverseArray/javalab1.lesson1-reverseArray.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/reverseArray/javalab1.lesson1-reverseArray.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/reverseArray/javalab1.lesson1-reverseArray.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/reverseArray/javalab1.lesson1-reverseArray.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/scoresIncreasing/javalab1.lesson1-scoresIncreasing.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/scoresIncreasing/javalab1.lesson1-scoresIncreasing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/scoresIncreasing/javalab1.lesson1-scoresIncreasing.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/scoresIncreasing/javalab1.lesson1-scoresIncreasing.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/scoresIncreasing/javalab1.lesson1-scoresIncreasing.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/scoresIncreasing/javalab1.lesson1-scoresIncreasing.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/seriesUp/javalab1.lesson1-seriesUp.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/seriesUp/javalab1.lesson1-seriesUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/seriesUp/javalab1.lesson1-seriesUp.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/seriesUp/javalab1.lesson1-seriesUp.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/seriesUp/javalab1.lesson1-seriesUp.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/seriesUp/javalab1.lesson1-seriesUp.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/sleepIn/javalab1.lesson1-sleepIn.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/sleepIn/javalab1.lesson1-sleepIn.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/sleepIn/javalab1.lesson1-sleepIn.main.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/sleepIn/javalab1.lesson1-sleepIn.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/lesson1/sleepIn/javalab1.lesson1-sleepIn.test.iml" filepath="$PROJECT_DIR$/.idea/modules/lesson1/sleepIn/javalab1.lesson1-sleepIn.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/javalab1.util.iml" filepath="$PROJECT_DIR$/.idea/modules/util/javalab1.util.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/javalab1.util.main.iml" filepath="$PROJECT_DIR$/.idea/modules/util/javalab1.util.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/util/javalab1.util.test.iml" filepath="$PROJECT_DIR$/.idea/modules/util/javalab1.util.test.iml" />
+    </modules>
+  </component>
+</project>

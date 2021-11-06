@@ -1,0 +1,49 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  text: |-
+    public class Task {
+
+        // Метод выводит массив, сумма элементов которого больше. Если массивы равны - выводим а
+        public int[] biggestArray(int[] a, int[] b) {
+
+            // Напишите тело метода и возвращаемое значение метода
+            return null;
+        }
+    }
+  learner_created: false
+- name: test/Tests.java
+  visible: false
+  text: |-
+    import org.junit.Assert;
+    import org.junit.Test;
+
+    import java.util.Arrays;
+
+    public class Tests {
+
+      @Test
+      public void D_biggestArrayTest() {
+
+        Task task = new Task();
+
+        int[] a = new int[]{};
+        int[] b = new int[]{};
+        Assert.assertArrayEquals("Метод biggestArray(" + Arrays.toString(a) + ", " + Arrays.toString(b) + ") должен вернуть {}", a, task.biggestArray(a, b));
+
+        a = new int[]{1, 2, 3, 4};
+        b = new int[]{1, 2, 3, 5};
+        Assert.assertArrayEquals("Метод biggestArray(" + Arrays.toString(a) + ", " + Arrays.toString(b) + ") должен вернуть {1, 2, 3, 5}", b, task.biggestArray(a, b));
+
+        a = new int[]{1, 2, 3, 5};
+        b = new int[]{1, 2, 3, 5, -1};
+        Assert.assertArrayEquals("Метод biggestArray(" + Arrays.toString(a) + ", " + Arrays.toString(b) + ") должен вернуть {1, 2, 3, 5}", a, task.biggestArray(a, b));
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 05 Sep 2021 07:44:29 UTC
+record: -1

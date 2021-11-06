@@ -1,0 +1,49 @@
+type: edu
+files:
+- name: src/Task.java
+  visible: true
+  text: |-
+    public class Task {
+
+        public boolean sleepIn(boolean weekday, boolean vacation) {
+
+            // Напишите тело метода и возвращаемое значение метода
+            return !weekday || vacation;
+        }
+    }
+  learner_created: false
+- name: test/Tests.java
+  visible: false
+  text: |-
+    import org.junit.Assert;
+    import org.junit.Before;
+    import org.junit.Test;
+
+    import static org.junit.Assert.assertFalse;
+    import static org.junit.Assert.assertTrue;
+
+    public class Tests {
+      private Task task;
+
+      @Before
+      public void setUp() {
+        task = new Task();
+      }
+
+      @Test()
+      public void A_sleepInTest() {
+        String msg = "Метод sleepIn() работает некорректно, ожидаемый результат работы метода не соответствует фактическому, " +
+                "внимательно прочитайте условие задания";
+
+        assertFalse(msg, task.sleepIn(true, false));
+        assertTrue(msg, task.sleepIn(false, false));
+        assertTrue(msg, task.sleepIn(false, true));
+        assertTrue(msg, task.sleepIn(true, true));
+      }
+    }
+  learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: Sun, 05 Sep 2021 07:44:19 UTC
+record: -1
